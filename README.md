@@ -4,7 +4,7 @@ Smart Refrigerator is a project I built to make managing a fridge smarter and ea
 
 Even without a web frontend, it’s fully interactive through a CLI, and all logic is separated from the interface so it could easily be extended to a web or mobile app in the future.
 
-Tech Stack
+Tech Stack:
 
 Python 3.11+ – core language
 
@@ -16,7 +16,7 @@ Pydantic – data validation
 
 pytest – testing
 
-Key Features
+Key Features:
 
 Item Management: Add, list, update, and remove items in the fridge.
 
