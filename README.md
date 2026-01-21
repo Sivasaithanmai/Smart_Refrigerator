@@ -7,17 +7,27 @@ Even without a web frontend, it’s fully interactive through a CLI, and all log
 Tech Stack
 
 Python 3.11+ – core language
+
 FastAPI + Uvicorn – backend & server
+
 SQLite + SQLAlchemy – database & ORM
+
 Pydantic – data validation
+
 pytest – testing
 
 Key Features
 
 Item Management: Add, list, update, and remove items in the fridge.
+
 Expiry Alerts: Automatically detect items nearing expiry.
+
 Grocery Suggestions: Get a list of items that are low on stock.
+
 Local ML-ready Structure: Backend ready for integrating offline food recognition in the future.
+
 API Endpoints: Fully functional FastAPI endpoints, documented with Swagger UI.
+
 Persistent Database: All items stored in SQLite, so changes are saved.
+
 Automated Tests: Backend logic and API endpoints tested using pytest.
